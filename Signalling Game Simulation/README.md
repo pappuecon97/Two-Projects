@@ -1,8 +1,8 @@
 # Signaling Equilibrium Simulation: Mechanism Design for Child Marriage Interventions
 
-**Author:** Md Johirul Islam
-**Context:** Research Project at BRAC Institute of Governance and Development (BIGD)
-**Topic:** Algorithmic Game Theory, Mechanism Design, Development Economics
+**Author:** Md Johirul Islam\
+**Context:** Research Project at BRAC Institute of Governance and Development (BIGD)\
+**Topic:** Algorithmic Game Theory, Mechanism Design, Development Economics\
 
 ## 📌 Project Overview
 
@@ -62,13 +62,19 @@ The simulation generates a "Policy Feasibility Graph" that identifies three zone
 ### Installation
 
 ```bash
-git clone [https://github.com/yourusername/child-marriage-mechanism-design.git](https://github.com/yourusername/child-marriage-mechanism-design.git)
-cd child-marriage-mechanism-design
+# 1. Clone the main repository
+git clone [https://github.com/pappuecon97/Two-Projects.git](https://github.com/pappuecon97/Two-Projects.git)
+
+# 2. Navigate into the specific project folder
+cd Two-Projects/Signalling Game Simulation
+
+# 3. Install required libraries
 pip install numpy matplotlib pandas
 ```
 
 ### Execution
 
 ```bash
+# Run the simulation script
 python signaling_simulation_v2.py
 ```
