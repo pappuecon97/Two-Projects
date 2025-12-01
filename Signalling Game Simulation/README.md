@@ -50,31 +50,3 @@ The simulation generates a "Policy Feasibility Graph" that identifies three zone
 2. **Separating Equilibrium (Yellow Zone):** The optimal policy window. High-types wait; Low-types marry early. Signal quality is preserved.
 3. **Rent Seeking (Green Zone):** Transfer is too high. Everyone delays marriage solely for the cash, diluting the signal value of the training program.
 
-## 💻 How to Run
-
-### Prerequisites
-
-* Python 3.x
-* NumPy
-* Matplotlib
-* Pandas
-
-### Installation
-
-```bash
-# 1. Clone the main repository
-git clone [https://github.com/pappuecon97/Two-Projects.git](https://github.com/pappuecon97/Two-Projects.git)
-
-# 2. Navigate into the specific project folder
-cd Two-Projects/Signalling Game Simulation
-
-# 3. Install required libraries
-pip install numpy matplotlib pandas
-```
-
-### Execution
-
-```bash
-# Run the simulation script
-python signaling_simulation_v2.py
-```
