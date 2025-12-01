@@ -1,4 +1,4 @@
-r"""# Signaling Equilibrium Simulation: Mechanism Design for Child Marriage Interventions
+# Signaling Equilibrium Simulation: Mechanism Design for Child Marriage Interventions
 
 **Author:** Md Johirul Islam
 **Context:** Research Project at BRAC Institute of Governance and Development (BIGD)
