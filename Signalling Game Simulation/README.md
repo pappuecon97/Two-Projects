@@ -36,7 +36,7 @@ $$
 
 ## 📊 Data Calibration
 
-The simulation parameters are not arbitrary; they are calibrated using data from a **Midline Survey (N=11,250)** conducted in Bangladesh (November 2024). Specifically, we utilize a **Vignette Experiment** (Section F1 of the survey instrument) to estimate:
+As the projects are in a very early stages, the simulation parameters are arbitrary now, assumed based on the literature and field visits. However, the main simulation parameters will not arbitrary; they will be calibrated using data from a **Endline Survey (N=6730)** conducted in Bangladesh (scheduled in December-January 2025). Specifically, we will utilize a **Vignette Experiment** (Section F1 of the survey instrument) to estimate:
 
 * **Base Dowry ($\tau_{base}$):** Derived from vignettes describing 15-year-old brides (Class 5).
 * **Age Penalty ($\beta$):** Derived by comparing dowry demands for 15-year-old vs. 19-year-old brides with identical education.
