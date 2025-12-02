@@ -20,17 +20,28 @@
 	**Appropriate directory based on user
 	
 	if "`c(username)'"== "Lenovo" {
-		cd "D:\Two-Projects\Misperception Survey Experiment" //johir's dir 
+		global base_dir "I:\My Drive\BIGD\Misperception measurement" //johir's dir 
 	}
-	if "`c(username)'"== "" { //put your username
-		cd "" //put your current directory
+	if "`c(username)'"== "h" {
+		global base_dir "G:\My Drive\BIGD\Misperception measurement" //18th floor pc
 	}	
 	
 	
-
+	global data_dir				${base_dir}/02_data 
+	global raw_data_dir 		${data_dir}/01_raw
+	global clean_data_dir		${data_dir}/02_clean
+	global analysis_dir   		${base_dir}/03_analysis
+	global analysis_do_dir  	${analysis_dir}/01_do file 
+	global analysis_log_dir 	${analysis_dir}/02_log
+	global analysis_output_dir 	${analysis_dir}/03_output 
+	global paper 				${base_dir}/04_paper\02_Manuscript
+	global table 				${paper}/01_tables
+	global figure 				${paper}/02_figure
+	global table_data			${data_dir}/01_raw/table_data
+	
 	
 	*load data 
-	use "SELP_Norm_Survey_Clean.dta", clear 
+	use "$clean_data_dir/SELP_Norm_Survey_Clean.dta", clear 
 	
 	
 	
@@ -146,7 +157,7 @@
 	des adolescent_age e_2_w father_edu ppi_likelihood relg s1_e parents_want_edu daughhter_marr marr_early hh_size dist_1 dist_2 dist_3 dist_4 dist_5 
 	
 
-	texdoc init "$table/balance_table.tex", replace force
+	texdoc init "$paper/balance_table.tex", replace force
 	
 	
 
