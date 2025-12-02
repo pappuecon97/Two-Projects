@@ -2,7 +2,7 @@
 
 **Author:** Md Johirul Islam\
 **Context:** Research Project at BRAC Institute of Governance and Development (BIGD)\
-**Topic:** Algorithmic Game Theory, Mechanism Design, Development Economics\
+**Topic:** Algorithmic Game Theory, Mechanism Design, Development Economics
 
 ## 📌 Project Overview
 
