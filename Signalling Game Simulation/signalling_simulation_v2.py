@@ -6,7 +6,8 @@ Date: November 2025
 Description: This script simulates a Signaling Game to find the optimal 
 Conditional Cash Transfer (CCT) amount that induces a Separating Equilibrium.
 It includes modules to calibrate parameters from survey vignette data. 
-For now, it uses the assumed calibrated values based on literature and field tests.
+For now, it uses the assumed calibrated values based on literature and field tests. 
+As the work progresses, I will do the simulation based on calibrated data from the actual survey.
 """
 
 import numpy as np
@@ -19,7 +20,7 @@ import pandas as pd
 
 def calibrate_parameters_from_survey(file_path=None):
     """
-    Calibrates simulation parameters using Vignette data from the Midline Survey.
+    Calibrates simulation parameters using Vignette data from the endline Survey.
     
     If file_path is None, returns calibrated default values based on 
     preliminary field findings (Section F1 of the Instrument).
@@ -27,7 +28,7 @@ def calibrate_parameters_from_survey(file_path=None):
     
     if file_path is None:
         print("⚠️ No survey file provided. Using calibrated defaults from Field Test...")
-        # Stylized facts from Bangladesh rural marriage market (in BDT)
+        # Stylized assumed data for Bangladesh rural marriage market (in BDT)
         return {
             'dowry_base': 50000,       # Cost for 15yo, Class 5
             'age_penalty': 20000,      # Extra cost for being 19yo (Unskilled)
@@ -160,4 +161,3 @@ if __name__ == "__main__":
     print("Simulation complete. Generating plot...")
     plt.show()
 
-    
